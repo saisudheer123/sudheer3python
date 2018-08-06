@@ -1,10 +1,10 @@
-num=int(input())
-temp=num
+N=int(input())
+temp=N
 sum=0
-while num>0:
-    rem=num%10
+while N>0:
+    rem=N%10
     sum=rem**3+sum
-    num=num//10
+    N=N//10
 if(temp==sum):
     print("yes")
 else:print("no")
