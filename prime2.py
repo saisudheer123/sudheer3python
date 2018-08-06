@@ -4,5 +4,5 @@ for i in range(1,nm+1):
     if (nm%i)==0:
         count+=1
 if(count==2):
-    print("yea")
+    print("yes")
 else:print("no")
